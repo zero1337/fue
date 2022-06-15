@@ -10,7 +10,7 @@ I used Firefox Developers Edition for this project. You can set Firefox DE to op
 - *Note* You may choose a different filetype just go to https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types and choose a file type then edit the html file the popup folder. Some file types will not work as expected.
 
 Load the extension into Firefox DE. At the address bar type ‘about:debugging’ click This Firefox and then Load Temporary Add-On. Browse to the downloaded files folder and open the manifest.json file. 
-- * Note * I was able to permanently install the extension but it did not function correctly. 
+- *Note* I was able to permanently install the extension but it did not function correctly. 
 It just downloaded the .ps1 file. I believe this is due to the xpi or zip file needed to install where the temporary add-on is in a folder not compressed. If you would like to attempt this add the key below to manifest.json after copying your own temporary id under on the debugging page and put it in for the “id” value. 
     "applications": {
             "gecko": {
